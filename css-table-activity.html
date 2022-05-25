@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+#customers {
+  font-family: 'Courier New', Courier, monospace;
+  width: 50%; 
+  height:400px;
+  text-align: left;
+  border-collapse: collapse;
+
+}
+
+#customers th, #customers td {
+border: 1px solid  black;
+
+}
+
+#shade {
+  background-color: black;
+  
+}
+#shade2 {
+    background-color: yellow;
+}
+
+
+</style>
+<body>
+    <table id="customers">
+    <tr>
+        <td id="shade">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td rowspan="4" id="shade2">Cell</td>
+    </tr>
+    <tr>
+        <td>Cell</td>
+        <td id="shade">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        
+        
+    </tr>
+    <tr>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td id="shade">Cell</td>
+        <td>Cell</td>
+        
+    </tr>
+    <tr>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+        <td id="shade">Cell</td>
+        
+    </tr>
+    <tr>
+        <td colspan="4" id="shade2">Cell</td>
+        
+        <td id="shade">Cell</td>
+    </tr>
+
+    </table>
+</body>
+</html>

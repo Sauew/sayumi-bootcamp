@@ -1,0 +1,46 @@
+* {
+    color: black;
+}
+
+h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+h3 {
+    color: crimson;
+    font-family: sans-serif;
+    /* serif, sans-serif, monospace */
+    text-decoration: underline;
+}
+
+.chapter {
+    background-color: cadetblue;
+}
+
+.chapter-1 a {
+    text-decoration: none;
+}
+
+#chapter-one {
+    color: rgb(51, 71, 107);
+    font-size: 32px;
+    text-decoration: overline;
+}
+
+#chapter-two {
+    color: rgba(132, 61, 182, 0.705);
+    font-size: 2.5em;
+}
+
+#chapter-three {
+    color: #6d491b;
+    font-size: 200%;
+}
+

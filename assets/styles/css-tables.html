@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tables</title>
+</head>
+
+
+<style>
+   #customers {
+      font-family:'Courier New', Courier, monospace;
+      width:80%;
+      text-align: center;
+      border-collapse: collapse;
+      
+   }  
+  
+#customers th, #customers td{
+    border: 1px solid  black;
+
+
+}
+
+#customers th{
+  background-color: green;
+  color: white;
+}
+
+#shade {
+  background-color: red;
+  color: white;
+}
+
+#shade2 {
+  background-color: red;
+  color: white;
+}
+</style>
+<body>
+    
+
+<table id ="customers">
+<tr>
+    <th>Company</th>
+    <th>Contract</th>
+    <th>Country</th>
+</tr>
+
+<tr>
+  <td colspan="2">Company XY</td>
+  <td rowspan="4" id="shade">Mexico</td>
+</tr>
+
+<tr>
+    <td colspan="2">Company XY</td>
+    
+    
+  </tr>
+
+  <tr>
+    <td>Company XY</td>
+    <td>2 years</td>
+    
+  </tr>
+
+  <tr>
+    <td>Company XY</td>
+    <td>2 years</td>
+    
+  </tr>
+
+
+</table>
+
+
+</body>
+</html>
